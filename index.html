@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,11 +18,9 @@
     <!-- Custom styles for this template -->
     <link href="jumbotron-narrow.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/painel.css" rel="stylesheet">
+    <link href="css/table-grid.css" rel="stylesheet">
+
 
   </head>
 
@@ -38,7 +35,7 @@
             <h4 class="modal-title" id="myModalLabel">Como usar o Painel?</h4>
           </div>
           <div class="modal-body">
-
+          Chame alguém da equipe ou escreva para dados@fundacaolemann.org.br
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -54,44 +51,45 @@
         <ul class="nav nav-pills pull-right">
           <!-- <li class="active"><a href="">Home</a></li> -->
           <!-- <li><a href="">Menu1</a></li> -->
-          <li><a href="/painel" class="btn btn-primary btn">Global</a></li>
+          <!-- <li><a href="/painel" class="btn btn-primary btn">Global</a></li>
   	      <li><a href="/painel/meta1" class="btn btn-info btn">Meta #1</a></li>
           <li><a href="/painel/meta2" class="btn btn-info btn">Meta #2</a></li>
           <li><a href="/painel/escolas" class="btn btn-info btn">Khan nas escolas</a></li>
-          <li><a href="/painel/mapa" class="btn btn-info btn">Mapa</a></li>
+          <li><a href="/painel/mapa" class="btn btn-info btn">Mapa</a></li> -->
           <li>&nbsp;&nbsp;&nbsp;</li>
-          <!-- <li>
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Action <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-               </ul>
-          </li> -->
   	      <li><button type="button" class="btn btn-default btn" data-toggle="modal" data-target="#myModal">Ajuda</button></li>
-          <!-- -->
-
-
-          </li>
         </ul>
-        <h3 class="text-muted"><img src="http://fundacaolemann.tempsite.ws/img/topo-logo.png" style="height:60px">&nbsp; Painel de Acompanhamento</img></h3>
-      </div>
-      <!-- Modal -->
 
-      <!-- <div class="jumbotron">
-        <h1>Comece agora!</h1>
-        <p class="lead"></p>
-      </div> -->
+        <h3 class="text-muted"><a href="/" style="text-decoration: none; color: inherit;"><img src="http://fundacaolemann.tempsite.ws/img/topo-logo.png" style="height:60px">&nbsp; Painel de Acompanhamento</img></a></h3>
+      </div>
 
       <div class="row marketing">
-        <script type='text/javascript' src='https://10ay.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1004px; height: 836px;'><object class='tableauViz' width='1004' height='836' style='display:none;'><param name='host_url' value='https%3A%2F%2F10ay.online.tableau.com%2F' /> <param name='site_root' value='&#47;t&#47;dados' /><param name='name' value='Metas&#47;Metas' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showVizHome' value='n' /></object></div>
+      </div>
+      <div class="grid-padded">
+            <div class="grid grid-example">
+                <div class="col col-3">
+                  <div id="my-div" style="background-color:#727D19;">
+                    <a href="global/" class="fill-div">Global</a>
+                  </div>
+                </div>
+                <div class="col col-3">
+                  <div id="my-div" style="background-color:#00504D;"><a href="ie/" class="fill-div">Inovação<br>nas<br>Escolas</a></div>
+                  <br>
+                  <div id="my-div" style="background-color:#00504D;"><a href="campanhas/" class="fill-div">Campanhas</a></div>
+                </div>
+                <div class="col col-3">
+                  <div id="my-div" style="background-color:#966310;"><a href="gestao/" class="fill-div">Produtos<br>para<br>Gestão</a></div>
+                  <br>
+                  <div id="my-div" style="background-color:#966310;"><a href="parceiros/" class="fill-div">Parceiros</a></div>
+                </div>
+                <div class="col col-3">
+                  <div id="my-div" style="background-color:#727D19;"><a href="sites/" class="fill-div">Sites</a></div>
+                </div>
+        </div>
       </div>
 
-      <div class="footer">
+
+      <div class="footer" align="center">
         <p>&copy; Fundação Lemann - 2015</p>
       </div>
 
@@ -99,9 +97,7 @@
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 

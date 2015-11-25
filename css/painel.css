@@ -1,0 +1,16 @@
+#my-div {
+    background-color: #f00234;
+    height: 298px;
+    text-align: top;
+    padding: 15px;
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    text-align:right;
+    font-size:42px;
+
+}
