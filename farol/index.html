@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Tiago Maluta">
+    <meta name="keywords" content="dashboard">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Painel - Fundação Lemann</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Como usar o Painel?</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container" style="max-width: 100%">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <!-- <li class="active"><a href="">Home</a></li> -->
+          <!-- <li><a href="">Menu1</a></li> -->
+          <li><a href="/painel" class="btn btn-info btn">Global</a></li>
+  	      <li><a href="/painel/meta1" class="btn btn-info btn">Meta #1</a></li>
+          <li><a href="/painel/meta2" class="btn btn-info btn">Meta #2</a></li>
+          <li><a href="/painel/escolas" class="btn btn-primary btn">Khan nas escolas</a></li>
+          <li><a href="/painel/mapa" class="btn btn-info btn">Mapa</a></li>
+          <li>&nbsp;&nbsp;&nbsp;</li>
+  	      <li><button type="button" class="btn btn-default btn" data-toggle="modal" data-target="#myModal">Ajuda</button></li>
+          <!-- -->
+
+
+          </li>
+        </ul>
+        <h3 class="text-muted"><img src="http://fundacaolemann.tempsite.ws/img/topo-logo.png" style="height:60px">&nbsp; Painel de Acompanhamento</img></h3>
+      </div>
+      <!-- Modal -->
+
+      <!-- <div class="jumbotron">
+        <h1>Comece agora!</h1>
+        <p class="lead"></p>
+      </div> -->
+
+      <div class="row marketing">
+      </div>
+      <div class="row marketing">
+        <script type='text/javascript' src='https://10ay.online.tableau.com/javascripts/api/viz_v1.js'></script>
+          <div class='tableauPlaceholder' style='width: 1004px; height: 836px;'>
+            <object class='tableauViz' width='1004' height='836' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2F10ay.online.tableau.com%2F' />
+              <param name='site_root' value='&#47;t&#47;dados' />
+              <param name='name' value='pag2e3dash&#47;Painel1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='showVizHome' value='n' />
+              <param name='bootstrapWhenNotified' value='y' />
+              <param name='filter' value='%3AopenAuthoringInTopWindow=true' />
+              <param name='filter' value='%3AbrowserBackButtonUndo=true' />
+              <param name='filter' value='%3AreloadOnCustomViewSave=true' />
+              <param name='filter' value='%3AshowShareOptions=true' />
+        </object>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; Fundação Lemann - 2015</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+  </body>
+</html>
